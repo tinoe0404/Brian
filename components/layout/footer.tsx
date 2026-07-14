@@ -92,13 +92,13 @@ export function Footer() {
               ))}
             </div>
             <p className="text-gray-400 text-sm">hello@brian.design</p>
-            <p className="text-gray-400 text-sm mt-1">+44 7700 000000</p>
+            <p className="text-gray-400 text-sm mt-1">+263 78 009 9553</p>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} Brian. All rights reserved.
+            © {new Date().getFullYear()} Brian Mlilo. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}

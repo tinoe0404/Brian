@@ -65,10 +65,10 @@ export const services: ServiceCard[] = [
     icon: "wrench",
   },
   {
-    id: "prototype-development",
-    title: "Prototype Development",
+    id: "prototypes-templates",
+    title: "Prototypes & Templates",
     description:
-      "Rapid prototyping support including material selection, construction method analysis, and prototype testing documentation.",
+      "Rapid prototyping and precise template creation for bespoke furniture production.",
     icon: "flask-conical",
   },
   {

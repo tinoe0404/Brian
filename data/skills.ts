@@ -3,7 +3,7 @@ import { SkillCategory } from "@/lib/types"
 export const skillCategories: SkillCategory[] = [
   {
     title: "CAD Software",
-    skills: ["AutoCAD", "Fusion 360", "SketchUp", "SolidWorks", "Inventor"],
+    skills: ["SketchUp", "SolidWorks", "AutoCAD", "CNC"],
   },
   {
     title: "Rendering",
@@ -35,8 +35,8 @@ export const skillCategories: SkillCategory[] = [
 ]
 
 export const stats = {
-  projectsCompleted: 180,
-  yearsOfExperience: 12,
-  happyClients: 95,
-  softwareProficiency: 8,
+  projectsCompleted: 30,
+  yearsOfExperience: 3,
+  happyClients: 100,
+  softwareProficiency: 4,
 }

@@ -16,8 +16,8 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    default: "Brian — Furniture Draftsman & Technical Designer",
-    template: "%s | Brian — Furniture Draftsman",
+    default: "Brian Mlilo — Furniture Draftsman & Technical Designer",
+    template: "%s | Brian Mlilo — Furniture Draftsman",
   },
   description:
     "Precision furniture design and technical documentation for architects, interior designers, and manufacturers. Specializing in bespoke furniture, cabinetry, and production drawings.",
@@ -32,18 +32,18 @@ export const metadata: Metadata = {
     "cabinet design",
     "London furniture designer",
   ],
-  authors: [{ name: "Brian" }],
+  authors: [{ name: "Brian Mlilo" }],
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "Brian — Furniture Draftsman",
-    title: "Brian — Furniture Draftsman & Technical Designer",
+    siteName: "Brian Mlilo — Furniture Draftsman",
+    title: "Brian Mlilo — Furniture Draftsman & Technical Designer",
     description:
       "Precision furniture design and technical documentation for architects, interior designers, and manufacturers.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Brian — Furniture Draftsman & Technical Designer",
+    title: "Brian Mlilo — Furniture Draftsman & Technical Designer",
     description:
       "Precision furniture design and technical documentation for architects, interior designers, and manufacturers.",
   },
@@ -67,7 +67,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Brian",
+              name: "Brian Mlilo",
               jobTitle: "Furniture Draftsman & Technical Designer",
               description:
                 "Precision furniture design and technical documentation for architects, interior designers, and manufacturers.",

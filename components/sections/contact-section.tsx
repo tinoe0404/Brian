@@ -46,7 +46,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-charcoal dark:text-white">Phone</h3>
-                <p className="text-gray-500 dark:text-gray-400">+44 7700 000000</p>
+                <p className="text-gray-500 dark:text-gray-400">+263 78 009 9553</p>
               </div>
             </div>
             <div className="flex items-start gap-4">

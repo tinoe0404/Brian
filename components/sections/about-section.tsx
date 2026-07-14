@@ -11,7 +11,7 @@ export function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="About Me"
-          subtitle="A Furniture Draftsman with over 12 years of experience bridging the gap between design concepts and manufactured reality."
+          subtitle="Bespoke & Custom Technical Design offering more than just furniture with unique ideas."
           align="left"
         />
 
@@ -39,13 +39,10 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
-              With over a decade of experience in furniture design and technical documentation, I help architects, interior designers, and manufacturers bring their furniture concepts to life with precision and clarity.
+              With over 3 years of experience in technical design, I create bespoke and custom pieces, offering much more than just furniture. I help bring unique ideas to life.
             </p>
             <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
-              My background in both furniture making and CAD technology allows me to create drawings that are not just accurate but truly production-ready. I understand how furniture is built, not just how it looks.
-            </p>
-            <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
-              Based in London, I work on projects ranging from bespoke residential furniture to large-scale commercial fit-outs, always maintaining the same commitment to quality and precision.
+              Based in Victoria Falls, I offer both full-time and remote services, ensuring that your projects are delivered with precision and unique flair.
             </p>
 
             <div className="pt-6 flex flex-wrap gap-12">

@@ -56,7 +56,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-charcoal dark:text-white text-lg">Phone</h3>
-                    <p className="text-gray-500 dark:text-gray-400">+44 7700 000000</p>
+                    <p className="text-gray-500 dark:text-gray-400">+263 78 009 9553</p>
                     <p className="text-sm text-gray-400 mt-1">Available weekdays 9am — 6pm.</p>
                   </div>
                 </div>

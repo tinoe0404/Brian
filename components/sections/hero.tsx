@@ -15,6 +15,17 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          className="mb-4"
+        >
+          <h2 className="text-xl md:text-2xl font-bold tracking-widest text-charcoal dark:text-white uppercase">
+            Brian Mlilo
+          </h2>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <span className="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-wood/10 text-wood border border-wood/20 mb-6">
@@ -39,7 +50,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="max-w-2xl mx-auto text-lg md:text-xl text-gray-500 dark:text-gray-400 leading-relaxed mb-10"
         >
-          Specializing in bespoke furniture design, technical documentation, and manufacturing drawings for architects, interior designers, and private clients.
+          Bespoke & custom technical design. Providing more than just furniture through unique ideas and precision CAD drafting.
         </motion.p>
 
         <motion.div
