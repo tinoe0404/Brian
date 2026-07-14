@@ -4,19 +4,19 @@ import Link from "next/link"
 import { ArrowUp, MessageCircle, Globe, Camera } from "lucide-react"
 
 const quickLinks = [
-  { href: "/about", label: "About" },
-  { href: "/portfolio", label: "Portfolio" },
-  { href: "/services", label: "Services" },
-  { href: "/resume", label: "Resume" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#portfolio", label: "Portfolio" },
+  { href: "/#services", label: "Services" },
+  { href: "/#resume", label: "Resume" },
+  { href: "/#blog", label: "Blog" },
+  { href: "/#contact", label: "Contact" },
 ]
 
 const serviceLinks = [
-  { href: "/services", label: "Technical Drawings" },
-  { href: "/services", label: "Cabinet Design" },
-  { href: "/services", label: "3D Modeling" },
-  { href: "/services", label: "Manufacturing Support" },
+  { href: "/#services", label: "Technical Drawings" },
+  { href: "/#services", label: "Cabinet Design" },
+  { href: "/#services", label: "3D Modeling" },
+  { href: "/#services", label: "Manufacturing Support" },
 ]
 
 const socialLinks = [

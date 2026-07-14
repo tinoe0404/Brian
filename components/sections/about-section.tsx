@@ -7,7 +7,7 @@ import { stats } from "@/data/skills"
 
 export function AboutSection() {
   return (
-    <section className="py-24 bg-gray-50 dark:bg-charcoal">
+    <section id="about" className="py-24 bg-gray-50 dark:bg-charcoal">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="About Me"

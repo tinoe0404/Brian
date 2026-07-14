@@ -16,7 +16,7 @@ export function ContactSection() {
   }
 
   return (
-    <section className="py-24 bg-gray-50 dark:bg-charcoal">
+    <section id="contact" className="py-24 bg-gray-50 dark:bg-charcoal">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Get in Touch"
@@ -55,7 +55,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-charcoal dark:text-white">Location</h3>
-                <p className="text-gray-500 dark:text-gray-400">London, United Kingdom</p>
+                <p className="text-gray-500 dark:text-gray-400">Victoria Falls, Zimbabwe</p>
               </div>
             </div>
 

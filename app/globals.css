@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Manrope:wght@400;500;600;700;800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 @import "tailwindcss";
 
 @theme inline {

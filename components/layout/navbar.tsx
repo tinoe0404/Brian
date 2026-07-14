@@ -8,14 +8,14 @@ import { cn } from "@/lib/utils"
 import { MobileMenu } from "./mobile-menu"
 
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/services", label: "Services" },
-  { href: "/portfolio", label: "Portfolio" },
-  { href: "/gallery", label: "Gallery" },
-  { href: "/resume", label: "Resume" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#home", label: "Home" },
+  { href: "/#about", label: "About" },
+  { href: "/#services", label: "Services" },
+  { href: "/#portfolio", label: "Portfolio" },
+  { href: "/#gallery", label: "Gallery" },
+  { href: "/#resume", label: "Resume" },
+  { href: "/#blog", label: "Blog" },
+  { href: "/#contact", label: "Contact" },
 ]
 
 export function Navbar() {
@@ -71,7 +71,7 @@ export function Navbar() {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="/#contact"
                 className="ml-4 px-5 py-2 rounded-lg bg-wood text-white text-sm font-medium hover:bg-wood-dark transition-colors"
               >
                 Get in Touch

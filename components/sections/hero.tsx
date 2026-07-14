@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-white dark:bg-matte-black overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-white dark:bg-matte-black overflow-hidden">
       <div className="absolute inset-0 bg-blueprint dark:bg-blueprint-dark opacity-50" />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white dark:to-matte-black" />
 
@@ -59,19 +59,19 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <Link href="/portfolio">
+          <Link href="/#portfolio">
             <Button variant="primary" size="lg">
               View Portfolio
               <ArrowRight className="w-5 h-5" />
             </Button>
           </Link>
-          <a href="/resume" download>
+          <Link href="/#resume">
             <Button variant="outline" size="lg">
               <Download className="w-5 h-5" />
               Download CV
             </Button>
-          </a>
-          <Link href="/contact">
+          </Link>
+          <Link href="/#contact">
             <Button variant="ghost" size="lg">
               Contact Me
             </Button>

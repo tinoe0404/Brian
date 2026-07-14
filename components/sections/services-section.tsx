@@ -7,7 +7,7 @@ import * as Icons from "lucide-react"
 
 export function ServicesSection() {
   return (
-    <section className="py-24 bg-white dark:bg-matte-black">
+    <section id="services" className="py-24 bg-white dark:bg-matte-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Services"
