@@ -4,20 +4,20 @@ export const timelineItems: TimelineItem[] = [
   {
     id: "exp-1",
     type: "employment",
-    title: "Technical Drawer",
-    subtitle: "Eider Enterprises",
+    title: "Technical Designer",
+    subtitle: "The African Touch",
     date: "2024 – Present",
     description:
-      "Producing detailed technical drawings and maintaining accurate documentation for bespoke furniture and custom fabrication projects.",
+      "Bridging the gap between conceptual design and production, ensuring design integrity and manufacturing feasibility for custom projects.",
   },
   {
     id: "exp-2",
     type: "employment",
-    title: "Technical Designer",
-    subtitle: "The African Touch",
+    title: "Technical Drawer",
+    subtitle: "Eider Enterprises",
     date: "2023 – 2024",
     description:
-      "Bridging the gap between conceptual design and production, ensuring design integrity and manufacturing feasibility for custom projects.",
+      "Producing detailed technical drawings and maintaining accurate documentation for bespoke furniture and custom fabrication projects.",
   },
   {
     id: "exp-3",

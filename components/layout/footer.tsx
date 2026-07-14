@@ -91,7 +91,7 @@ export function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-gray-400 text-sm">hello@brian.design</p>
+            <p className="text-gray-400 text-sm">brianmlilo261102@gmail.com</p>
             <p className="text-gray-400 text-sm mt-1">+263 78 009 9553</p>
           </div>
         </div>

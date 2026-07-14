@@ -37,7 +37,7 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="font-semibold text-charcoal dark:text-white">Email</h3>
-                <p className="text-gray-500 dark:text-gray-400">hello@brian.design</p>
+                <p className="text-gray-500 dark:text-gray-400">brianmlilo261102@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start gap-4">

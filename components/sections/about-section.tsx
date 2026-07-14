@@ -42,7 +42,7 @@ export function AboutSection() {
               With over 3 years of experience in technical design, I create bespoke and custom pieces, offering much more than just furniture. I help bring unique ideas to life.
             </p>
             <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
-              Based in Victoria Falls, I offer both full-time and remote services, ensuring that your projects are delivered with precision and unique flair.
+              Based in Victoria Falls, I am readily available for hiring on short or long contracts. My international documentation is ready, ensuring seamless collaboration across borders.
             </p>
 
             <div className="pt-6 flex flex-wrap gap-12">

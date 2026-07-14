@@ -9,13 +9,13 @@ export const projects: Project[] = [
     categories: ["Custom Furniture", "Residential", "Commercial"],
     client: "Confidential Client",
     year: 2024,
-    software: ["SketchUp", "SolidWorks", "AutoCAD", "CNC"],
+    software: ["SketchUp", "SolidWorks", "AutoCAD"],
     heroImage: "/images/kitchen-hero.jpg",
     images: [
       { src: "/images/kitchen-1.jpg", alt: "Bespoke design detail (blurred)", width: 1200, height: 800 },
     ],
     description:
-      "A range of bespoke and custom furniture projects. Please note that full details and imagery are kept confidential to protect client privacy. Specific drawings and pictures may feature blurred or hidden parts to respect this confidentiality.",
+      "A range of bespoke and custom furniture projects featuring 3D furniture modelling using templates (e.g. Zintec board). Please note that full details and imagery are kept confidential to protect client privacy. Specific drawings and pictures may feature blurred or hidden parts to respect this confidentiality.",
     challenges:
       "Ensuring high-end bespoke quality while maintaining strict confidentiality regarding the unique ideas and technical details.",
     solutions:
