@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { SectionTitle } from "@/components/ui/section-title"
 import { AnimatedCounter } from "@/components/ui/animated-counter"
 import { stats } from "@/data/skills"
+import Image from "next/image"
 
 export function AboutSection() {
   return (
@@ -22,12 +23,15 @@ export function AboutSection() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
           >
-            <div className="aspect-[4/5] rounded-2xl bg-gray-200 dark:bg-gray-700 overflow-hidden">
-              <div className="w-full h-full flex items-center justify-center text-gray-400 dark:text-gray-500">
-                <svg className="w-24 h-24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
+            <div className="aspect-[4/5] rounded-2xl bg-gray-200 dark:bg-gray-700 overflow-hidden relative">
+              <Image
+                src="/brian-profile.jpg"
+                alt="Brian Mlilo at work"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                priority
+              />
             </div>
           </motion.div>
 
